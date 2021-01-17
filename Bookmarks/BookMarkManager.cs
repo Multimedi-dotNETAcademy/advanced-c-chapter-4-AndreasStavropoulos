@@ -46,6 +46,8 @@ namespace Bookmarks
                     break;
 
                 default:
+                    Console.WriteLine("Error");
+                    SecondMenu();
                     break;
             }
         }
